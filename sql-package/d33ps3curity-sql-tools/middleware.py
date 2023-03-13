@@ -25,7 +25,7 @@ def new_middleware(get_response):
 
         print("================")
         print("[SQL Stats]")
-        print(f"{num_queries} Total Queires")
+        print(f"{num_queries} Total Queries")
         print(f"{num_queries - len(check_duplicates)} Total Duplicates")
         print(f"{total_execution_time}")
         print("================")
