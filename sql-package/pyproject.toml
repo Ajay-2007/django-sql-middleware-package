@@ -1,0 +1,20 @@
+[project]
+name = "d33ps3curity-query-inspector"
+version = "1.0.1"
+description = "A Django middleware package to print out queries to the terminal"
+readme = "README.md"
+license = { file = "LICENSE" }
+
+authors = [
+    { name = "Ajay-2007" },
+]
+
+dependencies = [
+    "Pygments>=2.14.0", "sqlparse>=0.4.3",
+]
+
+requires-python = ">=3.11"
+
+
+[project.urls] 
+Homepage = "https://github.com/Ajay-2007/django-sql-middleware-package/"
