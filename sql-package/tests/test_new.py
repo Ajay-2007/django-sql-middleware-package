@@ -16,6 +16,3 @@ def test_demo(client, settings, capsys):
     sys.stdout.write(captured.out)
 
     assert "1 Total Queries" in captured.out
-    # qs = Product.objects.all().count()
-    # assert qs == 0
-    # assert response.status_code == 200
