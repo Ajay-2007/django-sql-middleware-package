@@ -1,3 +1,8 @@
+[build-system]
+requires        = ["setuptools>=61.0.1", "wheel"]
+build-backend   = "setuptools.build_meta"
+
+
 [project]
 name = "d33ps3curity-query-inspector"
 version = "1.0.1"
@@ -13,8 +18,13 @@ dependencies = [
     "Pygments>=2.14.0", "sqlparse>=0.4.3",
 ]
 
+
 requires-python = ">=3.11"
 
 
-[project.urls] 
+[tool.setuptools.packages.find]
+include = ["d33ps3curity-sql-tools"]
+
+
+[project.urls]
 Homepage = "https://github.com/Ajay-2007/django-sql-middleware-package/"
