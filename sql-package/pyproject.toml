@@ -5,7 +5,7 @@ build-backend   = "setuptools.build_meta"
 
 [project]
 name = "d33ps3curity-sql-tools"
-version = "1.0.2"
+version = "1.0.4"
 description = "A Django middleware package to print out queries to the terminal"
 readme = "README.rst"
 license = { text = "MIT" }
@@ -19,7 +19,7 @@ dependencies = [
 ]
 
 
-requires-python = ">=3.11"
+requires-python = ">=3.8"
 
 
 [tool.setuptools.packages.find]
